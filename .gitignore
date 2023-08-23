@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/LeetCode_459_Repeated_Substring_Pattern
+/LeetCode
+*.sln
