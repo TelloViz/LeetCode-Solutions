@@ -22,6 +22,8 @@ int RecurseSum(ListNode* lhs, ListNode* rhs, int lhsBase, int rhsBase) {
      
      // if 1's digit : base case
 
+     return 0;
+
 }
 
 int ConvertToInt(ListNode* node, int base) {
@@ -29,6 +31,8 @@ int ConvertToInt(ListNode* node, int base) {
      if (node->next == nullptr) return 
 
      ConvertToInt(node->next, base - 1) + node->val;
+
+     return 0;
 }
 
 
