@@ -35,6 +35,7 @@ int main()
 {
      Solution sol;
      std::vector<int> vec{ 1, 2, 3, 4, 5 };
-     sol.twoSum(vec, 6);
+     auto solVec = sol.twoSum(vec, 6);
+     std::cout << "Solution: " << vec[solVec[0]] << "+" << vec[solVec[1]] << " = 6" << std::endl;
      return 0;
 }
